@@ -1,4 +1,4 @@
-import { makeJWTtokenHandler } from "../../data/gateways/token-handler";
+import {makeJWTtokenHandler} from "../../data/cryptography/token-handler"
 import {AuthenticationMiddleware} from "../../../../app/middlewares/authenticationMiddleware"
 
 export const makeAuthenticationMiddleware = (): AuthenticationMiddleware => {
